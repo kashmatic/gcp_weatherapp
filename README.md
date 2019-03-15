@@ -1,3 +1,5 @@
+# gcp_weatherapp
+
 ## Steps to deploy the app on Google Cloud Platform
 
 ### Step 1: Generate libraries
@@ -7,9 +9,7 @@ pip install -t lib -r requirements.txt
 
 ### Step 2: Create project
 ```
-Project name: weatherapp
 Project ID: weather-234603
-Project number: 856486306893
 ```
 
 ### Step 3: Create file: *app.yaml*
@@ -45,4 +45,3 @@ $ gcloud init
 
 $ gcloud app deploy app.yaml
 ```
-# gcp_weatherapp
